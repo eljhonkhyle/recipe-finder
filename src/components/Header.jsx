@@ -2,12 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div
-      className="grid place-items-center
-"
-    >
-      <h1 className="p-7 text-neutral-500">Recipe Finder</h1>
-      <label className="input">
+    <div className="flex flex-col items-center gap-4 p-5 md:flex-row md:justify-between">
+      <h1 className="text-lg pl-50px md:text-1xl text-slate-500">
+        Recipe Finder
+      </h1>
+      <label className="input flex itesms-center border border-gray-300 rounded-md p-2 w-full max-w-xs sm:max-w-md md:max-w-lg">
         <svg
           className="h-[1em] opacity-50"
           xmlns="http://www.w3.org/2000/svg"
